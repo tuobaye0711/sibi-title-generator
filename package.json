@@ -1,0 +1,21 @@
+{
+  "name": "sibi-title-generator",
+  "version": "1.0.0",
+  "description": "撕逼文章标题生成器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuobaye0711/sibi-title-generator.git"
+  },
+  "keywords": [
+    "sibi"
+  ],
+  "author": "zhleven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuobaye0711/sibi-title-generator/issues"
+  }
+}
