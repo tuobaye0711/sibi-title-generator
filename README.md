@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm --save i sibi-title-generator
+git clone https://github.com/tuobaye0711/sibi-title-generator.git
 ```
 
 ## Usage
