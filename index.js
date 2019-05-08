@@ -1,12 +1,6 @@
-const sibiTitleGenerator = (title, n, withSymbol) => {
-    if (!withSymbol) {
-        withSymbol = true
-    }
-    let newTitle = title;
-    n = Math.floor(n);
-    if (n <= 0) {
-        return withSymbol ? `《${newTitle}》` : newTitle
-    }
-    return sibiTitleGenerator(`驳《${newTitle}》`, --n, withSymbol)
+const sibiTitleGenerator = (title, n) => {
+    if (!n) return title;
+    return "驳《" + "驳<".repeat(n - 1) + title + ">".repeat(n - 1) + "》";
 }
+
 module.exports = sibiTitleGenerator;
